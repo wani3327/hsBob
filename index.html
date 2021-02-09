@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <title>배고파</title>
+    <link rel="stylesheet" type="text/css" href="layout.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src='callneis.js'></script>
+</head>
+<body>
+    <div id="title" class='cell'>
+        <b>주간 급식</b>
+        <div id='go-today' onclick='goToday();'>오늘 날짜로 이동</div>
+    </div>
+
+    <div id='meal'>
+        <div id='monday'><div class='date cell'></div></div>
+        <div id='tuesday'><div class='date cell'></div></div>
+        <div id='wednesday'><div class='date cell'></div></div>
+        <div id='thursday'><div class='date cell'></div></div>
+        <div id='friday'><div class='date cell'></div></div>
+    </div>
+
+    <span id='credit' class='cell'>만든 사람: 28기 김경완</span>
+
+    <script>
+        makeHTML(20201211)
+        getMeal()
+    </script>
+</body>
