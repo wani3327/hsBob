@@ -28,10 +28,8 @@ b {
 
 #title {
     display: flex;
-    /* border-color: white!important; */
-    background-color: goldenrod;
-    color:white;
-
+    border-color: wheat!important;
+    background-color: ivory;
 }
 
 #go-today {
