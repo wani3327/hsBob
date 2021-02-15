@@ -32,18 +32,6 @@ b {
     background-color: ivory;
 }
 
-#go-today {
-    display: none;
-    margin-left: auto;
-    margin-right: 5px;
-    border: 2px solid darkkhaki;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: auto;
-    font-size: 0.9em;
-    cursor: pointer;
-}
-
 .date {
     font-weight: 600;
     background-color: ivory;
@@ -57,6 +45,17 @@ b {
 #credit {
     float: right;
     margin-bottom: 20px;
+}
+
+#go-today {
+    display: none;
+    position: fixed;
+    left: 10px;
+    bottom: 20px;
+    border: 2px solid aqua;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1400px) {
