@@ -39,11 +39,11 @@ function makeHTML(date)
 }
 
 const DAYNAME = ['', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', ''];
-var today = new Date(1607655600000);
+var today = new Date(); //1607655600000
 
 function getMeal()
 {
-    let i = new Date(1607655600000);
+    let i = new Date();
     i.setDate(today.getDate() - (today.getDay() - 1));
 
     while (i.getDay() != 6)
